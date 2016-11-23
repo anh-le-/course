@@ -25,6 +25,7 @@
           <excludes>
             <exclude>**/TestUtils.java</exclude>
             <exclude>**/TestSourceOperator.java</exclude>
+            <exclude>**/AsyncDeadlockTesterThread.java</exclude>
           </excludes>
           <argLine> -Xms16m -Xmx16m </argLine> <!--ADD TEST JVM ARGS HERE i.e '-Xms8m -Xmx8m' to limit memory to 8m -->
         </configuration>
