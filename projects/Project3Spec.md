@@ -24,6 +24,8 @@ This project builds on top of the code and functionality that you should be fami
 
 We have released the staff solutions for Project 1 and 2 to a private repository (link can be found on Piazza), and you are free to integrate those into your codebase. Though if you feel confident about your own solutions to Project 1 and 2, you may stick with those as well (and we would really like it if you did since the whole point of these projects is to build your own implementation of a database!). Regardless, a correct working implementation of Project 1 and 2 is **necessary** in order to complete this project.
 
+Also, please note that once you pull the starter code and Project 1 and 2 solutions (if you choose to use them), many of the tests for the earlier projects will not pass initially. This is because these tests require a working implementation of locking, and there used to be simple database-level locking in the codebase for the earlier projects, but that has now been replaced with table-level locking which you guys will implement in this project. We recommend running only the tests in the `concurrency` package as you complete this project and once they all pass, you should pass all the tests for this database system as well! 
+
 ## Getting Started
 
 As usual, you can get the assignment from the [Github course repository](https://github.com/berkeley-cs186/course) (assuming you've set things up as we asked you to in homework 0) by running `git pull course master`. This will get you all of the starter code we've provided, this project spec, and all of the tests that we've written for you.
